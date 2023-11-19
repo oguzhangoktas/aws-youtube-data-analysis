@@ -1,0 +1,39 @@
+## Project Stages
+
+### 1. Downloading and Uploading Dataset
+
+- **Data Download from Kaggle:**
+  - Structured and semi-structured CSV and JSON data categorized by region were downloaded from Kaggle.
+  
+- **Data Upload to AWS S3:**
+  - The acquired data was uploaded to the source S3 bucket previously created.
+
+### 2. Data Transformation: JSON to Parquet
+
+- **AWS Lambda Function:**
+  - A Lambda function was created to trigger upon the arrival of new data in the source S3 bucket.
+  - The Lambda function converted JSON files to Parquet format and moved them to the destination S3 bucket.
+
+### 3. AWS Glue Crawlers and ETL Jobs
+
+- **Crawlers and Data Transformation:**
+  - Crawlers were set up in AWS Glue to discover and catalog the data stored in the CSV and JSON files.
+  - ETL Jobs were utilized to transform the data into Parquet format, moving it to another S3 bucket.
+
+### 4. Athena Data Analysis and Preparation
+
+- **Data Analysis with Athena:**
+  - Athena was employed for data analysis, enabling querying on the dataset.
+  - Queries were prepared for the target dataset before generating reports.
+
+### 5. Creating Target Data for Visualization
+
+- **AWS Glue ETL Job for Visualization Data:**
+  - Another ETL Job in AWS Glue was created to prepare data for visualization purposes.
+  - The prepared data was loaded into a separate table in a separate database.
+
+## Project Details and Files
+
+The design and code files of the services used in the project can be accessed from the repository.
+These files and resources comprehensively detail the AWS services and structures used throughout the project, allowing easy access to components running on the project.
+
