@@ -55,3 +55,13 @@ The project makes use of the following AWS services:
 ## Architecture Diagram
 
 ![image](https://github.com/oguzhangoktas/aws-youtube-data-analysis/assets/138725663/7bc7aa52-b67d-4760-87c3-973ab2416408)
+
+## 📌 Credits & References
+
+This project was inspired by [Darshil Parmar](https://github.com/darshilparmar)'s excellent YouTube tutorials and GitHub repository:  
+🔗 [dataengineering-youtube-analysis-project](https://github.com/darshilparmar/dataengineering-youtube-analysis-project)
+
+I followed the steps provided and implemented this project for learning purposes while also adding my own improvements and documentation.
+
+Thanks to Darshil for the valuable content! 🙌
+
